@@ -1,0 +1,14 @@
+{
+    "name": "sharda-orders",
+    "version": "1.0.0",
+    "description": "Order submission system for Sharda",
+    "main": "server/server.js",
+    "scripts": {
+        "start": "node server/server.js"
+    },
+    "author": "Eric Scott",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.19.2"
+    }
+}
