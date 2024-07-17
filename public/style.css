@@ -1,54 +1,198 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 20px;
+}
+
+form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  max-width: 800px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  grid-column: 1 / -1;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+th {
+  background-color: #f9f9f9;
+}
+
+.add-product-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.add-product-button:hover {
+  background-color: #0056b3;
+}
+
+.submit-button {
+  background-color: #28a745;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto 0 auto;
+  width: 100px;
+}
+
+.submit-button:hover {
+  background-color: #218838;
+}
+
+#successMessage {
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 20px;
+  grid-column: 1 / -1;
+}
+
+@media (max-width: 600px) {
+  form {
+    grid-template-columns: 1fr;
   }
-  
-  h1 {
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  .step {
-    margin: 20px;
-  }
-  
+
   table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
+    display: block;
+    overflow-x: auto;
   }
-  
-  table, th, td {
-    border: 1px solid #ddd;
-  }
-  
+
   th, td {
-    padding: 8px;
-    text-align: left;
+    white-space: normal;
   }
-  
-  th {
-    background-color: #f2f2f2;
-  }
-  
-  button {
-    padding: 10px 20px;
-    margin: 10px;
-  }
-  
+
   .submit-button {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    cursor: pointer;
+    width: auto;
   }
-  
-  .add-product-button {
-    background-color: #008CBA;
-    color: white;
-    border: none;
-    cursor: pointer;
-  }
-  
+}
+nav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+nav button {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+  padding-top: 60px;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 300px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.admin-dashboard {
+  display: none;
+  padding: 20px;
+}
+
+.admin-dashboard nav {
+  float: left;
+  width: 20%;
+  background: #f4f4f4;
+  height: 100%;
+}
+
+.admin-dashboard nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.admin-dashboard nav ul li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.data-table {
+  margin-left: 20%;
+  padding: 20px;
+}

@@ -154,5 +154,31 @@
     "email": "email@google.com",
     "paymentMethod": "Wire",
     "primaryContact": "Billy Bob"
+  },
+  {
+    "name": "asdfg",
+    "address": "asdfg",
+    "lll": "asdf",
+    "country": "asdf",
+    "gstNumber": "asdf",
+    "phone": "12345",
+    "fax": "",
+    "mobile": "12345",
+    "email": "abcd@abcd.com",
+    "paymentMethod": "Wire",
+    "primaryContact": "Bill Bob"
+  },
+  {
+    "name": "Testing name",
+    "address": "12345",
+    "lll": "LLL 1",
+    "country": "USA",
+    "gstNumber": "213456",
+    "phone": "12345689",
+    "fax": "9876",
+    "mobile": "592370452",
+    "email": "test@mail.com",
+    "paymentMethod": "Wire",
+    "primaryContact": "Bill John"
   }
 ]

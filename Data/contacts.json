@@ -100,5 +100,17 @@
     "lastName": "Bob",
     "phone": "123124",
     "role": "Smart"
+  },
+  {
+    "firstName": "New First",
+    "lastName": "New Last",
+    "phone": "65421",
+    "role": "aj;fkl"
+  },
+  {
+    "firstName": "New Customer 1",
+    "lastName": "New Customer 1",
+    "phone": "1234567",
+    "role": "Owner"
   }
 ]
