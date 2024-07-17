@@ -1,73 +1,98 @@
 [
-    {
-      "firstName": "John",
-      "lastName": "Doe",
-      "phone": "555-1234",
-      "role": "Manager",
-      "worksFor": ["Customer1"]
-    },
-    {
-      "firstName": "Alice",
-      "lastName": "Johnson",
-      "phone": "555-2345",
-      "role": "Sales",
-      "worksFor": ["Customer2"]
-    },
-    {
-      "firstName": "Bob",
-      "lastName": "Brown",
-      "phone": "555-3456",
-      "role": "Technician",
-      "worksFor": ["Customer3"]
-    },
-    {
-      "firstName": "Carol",
-      "lastName": "Williams",
-      "phone": "555-4567",
-      "role": "Support",
-      "worksFor": ["Customer4"]
-    },
-    {
-      "firstName": "Dave",
-      "lastName": "Jones",
-      "phone": "555-5678",
-      "role": "Engineer",
-      "worksFor": ["Customer5"]
-    },
-    {
-      "firstName": "Eve",
-      "lastName": "Davis",
-      "phone": "555-6789",
-      "role": "Consultant",
-      "worksFor": ["Customer6"]
-    },
-    {
-      "firstName": "Frank",
-      "lastName": "Miller",
-      "phone": "555-7890",
-      "role": "Supervisor",
-      "worksFor": ["Customer7"]
-    },
-    {
-      "firstName": "Grace",
-      "lastName": "Garcia",
-      "phone": "555-8901",
-      "role": "Coordinator",
-      "worksFor": ["Customer8"]
-    },
-    {
-      "firstName": "Hank",
-      "lastName": "Martinez",
-      "phone": "555-9012",
-      "role": "Analyst",
-      "worksFor": ["Customer9"]
-    },
-    {
-      "firstName": "Ivy",
-      "lastName": "Lopez",
-      "phone": "555-0123",
-      "role": "Developer",
-      "worksFor": ["Customer10"]
-    }
-  ]
-  
+  {
+    "firstName": "John",
+    "lastName": "Doe",
+    "phone": "555-1234",
+    "role": "Manager",
+    "worksFor": [
+      "Customer1"
+    ]
+  },
+  {
+    "firstName": "Alice",
+    "lastName": "Johnson",
+    "phone": "555-2345",
+    "role": "Sales",
+    "worksFor": [
+      "Customer2"
+    ]
+  },
+  {
+    "firstName": "Bob",
+    "lastName": "Brown",
+    "phone": "555-3456",
+    "role": "Technician",
+    "worksFor": [
+      "Customer3"
+    ]
+  },
+  {
+    "firstName": "Carol",
+    "lastName": "Williams",
+    "phone": "555-4567",
+    "role": "Support",
+    "worksFor": [
+      "Customer4"
+    ]
+  },
+  {
+    "firstName": "Dave",
+    "lastName": "Jones",
+    "phone": "555-5678",
+    "role": "Engineer",
+    "worksFor": [
+      "Customer5"
+    ]
+  },
+  {
+    "firstName": "Eve",
+    "lastName": "Davis",
+    "phone": "555-6789",
+    "role": "Consultant",
+    "worksFor": [
+      "Customer6"
+    ]
+  },
+  {
+    "firstName": "Frank",
+    "lastName": "Miller",
+    "phone": "555-7890",
+    "role": "Supervisor",
+    "worksFor": [
+      "Customer7"
+    ]
+  },
+  {
+    "firstName": "Grace",
+    "lastName": "Garcia",
+    "phone": "555-8901",
+    "role": "Coordinator",
+    "worksFor": [
+      "Customer8"
+    ]
+  },
+  {
+    "firstName": "Hank",
+    "lastName": "Martinez",
+    "phone": "555-9012",
+    "role": "Analyst",
+    "worksFor": [
+      "Customer9"
+    ]
+  },
+  {
+    "firstName": "Ivy",
+    "lastName": "Lopez",
+    "phone": "555-0123",
+    "role": "Developer",
+    "worksFor": [
+      "Customer10"
+    ]
+  },
+  {
+    "firstName": "Eric",
+    "lastName": "Scott",
+    "phone": "6417998323",
+    "role": "Owner"
+  }
+]
